@@ -12,9 +12,6 @@ class Observable<TData>{
             this.observers = this.observers.filter(obs => obs !== observer);
         }
     }
-    // unsubscribe(observer: Observable<TData>){
-    //     this.observers = this.observers.filter(obs => obs !== observer);
-    // }
     notify(data: TData){
         this.observers.forEach(observer => observer(data));
     }

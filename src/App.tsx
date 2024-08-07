@@ -1,7 +1,6 @@
 import './App.css'
 import { Button } from './companents/Button'
 import './companents/Tesk1range/Iterators'
-import { Toast } from './companents/Toast'
 import { ToastContainer } from './companents/ToastContainer'
 import { toast } from './utils'
 

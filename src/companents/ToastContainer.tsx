@@ -1,4 +1,4 @@
-import { useEffect, useState, version } from 'react';
+import { useEffect, useState} from 'react';
 import { Toast, ToastProps } from './Toast';
 import {toastObservable} from '../utils'
 type Toast = Pick<ToastProps , 'id' | 'message' | 'variant'>;
