@@ -1,8 +1,8 @@
 import './App.css'
 import { Button } from './companents/Button'
-import './companents/Tesk1range/Iterators'
+import './companents/Tesk1Range/Iterators'
 import { ToastContainer } from './companents/ToastContainer'
-import { toast } from './utils'
+import { toast } from './Observer'
 
 
 function App() {
