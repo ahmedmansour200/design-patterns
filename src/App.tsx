@@ -1,4 +1,3 @@
-import './App.css'
 import { Button } from './companents/Button'
 import './companents/Tesk1Range/Iterators'
 import { ToastContainer } from './companents/ToastContainer'
